@@ -1,5 +1,5 @@
-var fullImgBox=document.getElementById("fullImgBox");
-var fullImg=document.getElementById("fullImg");
+let fullImgBox=document.getElementById("fullImgBox");
+let fullImg=document.getElementById("fullImg");
 
 let openImg = (pic)=>{
     fullImgBox.style.display = "flex";
