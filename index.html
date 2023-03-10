@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="full-img" id="fullImgBox">
+        <img src="road.jpg" id="fullImg" alt="">
+        <span onclick="closeImg()">x</span>
+    </div>
+    <h1>Vacation Images</h1>
+     <div class="img-gallery">
+        
+        <img src="image2.jpeg" onclick="openImg(this.src)">
+        <img src="road1.jpg" onclick="openImg(this.src)">
+        <img src="avenue.jpg"onclick="openImg(this.src)" >
+        <img src="image4.jpeg" onclick="openImg(this.src)">
+        <img src="flowers.jpg" onclick="openImg(this.src)"> 
+        <img src="image1.jpeg" onclick="openImg(this.src)">
+        <img src="Dark.jpeg" onclick="openImg(this.src)">
+        <img src="image.jpeg" onclick="openImg(this.src)">
+        <img src="images.jpeg" onclick="openImg(this.src)">
+        <img src="images1.jpeg" onclick="openImg(this.src)">
+        <img src="images5.jpeg" onclick="openImg(this.src)">
+        <img src="images3.jpeg" onclick="openImg(this.src)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
